@@ -8,3 +8,18 @@ print('É alfanúmerico? {}'.format(algo.isalnum()))
 print('Esta em maiúsculas? {}'.format(algo.isupper()))
 print('Está em minúsculas? {}'.format(algo.islower()))
 print('Está capitalizada? {}'.format(algo.istitle()))
+
+#Faça um programa que leia um número e mostre seu antecessor e seu sucessor.
+num = int(input('Digite um numero: '))
+a=int(num-1)
+s=int(num+1)
+print('Seu numero é {0}, seu sucessor é {2} e seu antecessor é {1}'. format(num, a, s))
+
+#Faça um programa que leia um número e mostre seu dobro, triplo e raiz quadrada.
+import math
+num=int(input('Digite um número: '))
+d=num*2
+t=num*3
+r=math.sqrt(num)
+
+print('O numero é {}, seu dobro é {}, seu triplo é {} e sua raiz quadrada é {}'.format(num, d, t, r))
