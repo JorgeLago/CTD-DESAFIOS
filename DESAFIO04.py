@@ -10,4 +10,7 @@ parede=altura*largura
 litros=parede/2
 print(f'sua parede tem {parede}m² de área e precisa de {litros:.2f}l para pintar toda')
 
-#
+#Faça um algoritimo que leia o preço de um produto e mostreu seu novo preço, com desconto de 5%.
+preco=float(input('Digite o preço do produto: R$'))
+desconto=preco-(preco*0.05)
+print(f'O produto custa {preco}, e com desconto de 5% passa a custar {desconto}')
