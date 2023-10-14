@@ -4,4 +4,4 @@ num=float(input('Digite um número real: '))
 num2=math.trunc(num)
 print(f'Seu numero é {num} e sua parte inteira é {num2}')
 
-#
+#Faça um programa que leia um numero
