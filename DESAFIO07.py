@@ -1,4 +1,4 @@
-# Faça um programa que leia um número de 0 a 9999 e motre na tela cada dígito separados por casa decimal.
+#Faça um programa que leia um número de 0 a 9999 e motre na tela cada dígito separados por casa decimal.
 numero = int(input('Digite seu numero : '))
 unidade = numero // 1 % 10
 dezena = numero // 10 % 10
@@ -10,3 +10,7 @@ print(f'Sua unidade é: {unidade}')
 print(f"Sua dezena é: {dezena}")
 print(f"Sua centena é: {centena}")
 print(f"Sua milhar é: {milhar}")
+
+#Crie um programa que leia o nome de uma cidade diga se ela começa ou não com o nome "SANTO".
+cidade=input('Digite onde você nasceu: ').strip().title().split()
+print('Santo' in cidade[0])
