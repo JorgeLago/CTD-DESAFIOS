@@ -1,10 +1,9 @@
-#Faça um programa que leia um número de 0 a 9999 e motre na tela cada dígito separados por casa decimal.
-numero = input('Digite seu numero : ')
-numero=numero.replace('','0')
-unidade = numero[-1]
-dezena = numero[-2]
-centena = numero[-3]
-milhar = numero[-4]
+# Faça um programa que leia um número de 0 a 9999 e motre na tela cada dígito separados por casa decimal.
+numero = int(input('Digite seu numero : '))
+unidade = numero // 1 % 10
+dezena = numero // 10 % 10
+centena = numero // 100 % 10
+milhar = numero // 1000 % 10
 
 print(f'Seu numero é: {numero}')
 print(f'Sua unidade é: {unidade}')
