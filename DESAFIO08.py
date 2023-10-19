@@ -12,9 +12,7 @@ print(f'O primeiro aparece na posição {primeiro}')
 print(f'O ultimo aparece na posição {ultimo}')
 
 # Faça um programa que leia o nome completo de uma pessoa, mostrando em seguida o primeiro e o último nome separadamente.
-nome = str(input('Qual seu Nome? '))
-nome=" ".join(nome)
-primeironome = nome[0]
-ultimonome = nome[-1]
-print(f'O seu primeiro nome é: {primeironome}')
-print(f'O seu ultimo nome é: {ultimonome}')
+nome = str(input('Qual seu Nome? ')).strip().title()
+n=nome.split()
+print(f'O seu primeiro nome é: {n[0]}')
+print(f'O seu ultimo nome é: {n[-1]}')
