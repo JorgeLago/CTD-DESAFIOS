@@ -26,3 +26,10 @@ else:
     print(f'Seu salario será {salario+(salario*0.10)}')
 
 #Faça um programa que leia 3 comprimentos de retas e diga se podem ser um triangulo ou nao.
+lado1=float(input('Digite o comprimento do primeiro lado: '))
+lado2=float(input('Digite o comprimento do segundo lado: '))
+lado3=float(input('Digite o comprimento do terceiro lado: '))
+if lado1 < lado2+lado3 and lado2 < lado1+lado3 and lado3 < lado1+lado2:
+    print('Pode ser um triângulo!')
+else:
+    print('Não forma um triangulo!')
