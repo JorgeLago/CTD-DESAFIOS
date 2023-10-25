@@ -1,1 +1,1 @@
-#Faça um programa que leia 
+#Faça um programa que adicione cores ao terminal
