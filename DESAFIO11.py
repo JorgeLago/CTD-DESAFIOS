@@ -23,6 +23,3 @@ elif media<=6:
     nova_media=(nota1+nota2+nota3+nota4)/4
 else:
     print('Aluno está reprovado !')
-
-
-elif
